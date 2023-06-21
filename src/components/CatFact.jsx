@@ -24,10 +24,9 @@ const CatFact = () => {
     
     const handleSubmit = (e) => {
         e.preventDefault();
-        setTimeout(()=>{
+
             fetchCatFact()
-        },3000
-        )
+
         setIsLoading(false)
 
     }
@@ -37,7 +36,7 @@ const CatFact = () => {
         },3000
         )
         setIsLoading(false)
-        
+
 
         
     },[])
@@ -58,5 +57,7 @@ const CatFact = () => {
     </form>
   )
 }
+
+
 
 export default CatFact

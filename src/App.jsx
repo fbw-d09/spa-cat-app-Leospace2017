@@ -12,9 +12,9 @@ function App() {
       width: "100%",
     }}>
       {/* Happy Coding start here :) */}
-      <Suspense fallback={<Loading />}>
+
         <CatFact />
-      </Suspense>
+
     </div>
   )
 
